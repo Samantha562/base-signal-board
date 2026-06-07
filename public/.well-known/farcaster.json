@@ -1,0 +1,17 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "Base Signal Board",
+    "iconUrl": "https://base-signal-board.vercel.app/icon.png",
+    "homeUrl": "https://base-signal-board.vercel.app",
+    "imageUrl": "https://base-signal-board.vercel.app/og.png",
+    "buttonTitle": "Send Signal",
+    "splashImageUrl": "https://base-signal-board.vercel.app/icon.png",
+    "splashBackgroundColor": "#000000"
+  }
+}

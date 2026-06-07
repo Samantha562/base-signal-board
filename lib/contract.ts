@@ -1,0 +1,1 @@
+export { baseSignalBoardAbi } from "./abi";

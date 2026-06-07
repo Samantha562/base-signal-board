@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #f7f7e8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--background);
+}
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    var(--background);
+  background-size: 16px 16px;
+  color: var(--foreground);
+  font-family: "Courier New", Courier, monospace;
+  image-rendering: pixelated;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.pixel-panel,
+.pixel-button,
+.pixel-cta,
+.pixel-stat,
+.pixel-mini-button,
+.pixel-wallet-button,
+.pixel-icon-button {
+  border: 3px solid #f7f7e8;
+  border-radius: 0;
+  box-shadow:
+    4px 4px 0 #0052ff,
+    7px 7px 0 #001b59;
+}
+
+.pixel-panel {
+  background: #070707;
+}
+
+.pixel-stat {
+  background: #101010;
+  box-shadow: 3px 3px 0 #0052ff;
+}
+
+.pixel-button {
+  background: #111111;
+  color: #f7f7e8;
+  transition:
+    transform 120ms steps(2, end),
+    background-color 120ms steps(2, end),
+    box-shadow 120ms steps(2, end);
+}
+
+.pixel-button.is-active,
+.pixel-button:focus-visible {
+  background: #172b64;
+  outline: 3px solid #00ff7f;
+  outline-offset: -6px;
+  transform: translate(2px, 2px);
+  box-shadow:
+    2px 2px 0 #00ff7f,
+    5px 5px 0 #003d23;
+}
+
+.pixel-cta {
+  background: #00ff7f;
+  color: #020202;
+  box-shadow:
+    4px 4px 0 #ffe066,
+    7px 7px 0 #6b5600;
+}
+
+.pixel-cta:disabled {
+  cursor: wait;
+  filter: grayscale(0.8);
+  opacity: 0.75;
+}
+
+.pixel-mini-button {
+  min-height: 40px;
+  background: #111111;
+  color: #f7f7e8;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.pixel-wallet-button,
+.pixel-icon-button {
+  background: #0052ff;
+  color: #f7f7e8;
+}
+
+details[open] summary {
+  background: #00ff7f;
+  color: #020202;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.pixel-icon-button {
+  display: grid;
+  height: 44px;
+  width: 44px;
+  place-items: center;
+}
+
+.pixel-badge {
+  display: grid;
+  height: 42px;
+  width: 42px;
+  place-items: center;
+  border: 3px solid #00ff7f;
+  background: #0052ff;
+  box-shadow: 3px 3px 0 #ffe066;
+}
+
+.pixel-kicker {
+  color: #ffe066;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.pixel-meter {
+  height: 14px;
+  border: 2px solid #f7f7e8;
+  background: #050505;
+}
+
+.pixel-meter span {
+  display: block;
+  height: 100%;
+  min-width: 2px;
+}
+
+.scanlines {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.06),
+    rgba(255, 255, 255, 0.06) 1px,
+    transparent 1px,
+    transparent 4px
+  );
+  opacity: 0.3;
+}
