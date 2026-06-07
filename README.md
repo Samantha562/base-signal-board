@@ -31,7 +31,7 @@ Set `NEXT_PUBLIC_BASE_SIGNAL_BOARD_ADDRESS` to the deployed Base contract addres
 Before production deployment, verify these values:
 
 - `base:app_id` and `talentapp:project_verification` in `app/layout.tsx`
-- `DATA_SUFFIX` in `lib/constants.ts` after the Base builder code is available
+- `BASE_BUILD_CODE` and `DATA_SUFFIX` in `lib/constants.ts`
 - `NEXT_PUBLIC_BASE_SIGNAL_BOARD_ADDRESS` in Vercel after the contract is deployed
 
 ## Development
@@ -51,4 +51,4 @@ npm run build
 
 Deploy the contract in `contracts/BaseSignalBoard.sol` to Base, set the contract address in Vercel, and disable Vercel Deployment Protection so the Mini App can load publicly.
 
-The hardcoded verification metadata is in `app/layout.tsx`. The Wagmi attribution `dataSuffix` is configured in `lib/wagmi.ts`, and every `writeContract` call explicitly passes `dataSuffix`.
+The hardcoded verification metadata is in `app/layout.tsx`. The Base build code and Wagmi attribution `dataSuffix` are configured in `lib/constants.ts`; `lib/wagmi.ts` sets the global suffix, and every `writeContract` call explicitly passes it.

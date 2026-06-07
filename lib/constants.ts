@@ -2,8 +2,9 @@ import type { Address, Hex } from "viem";
 
 export const APP_NAME = "Base Signal Board";
 export const BASE_APP_ID = "6a24ea3829b4287dd653e301";
+export const BASE_BUILD_CODE = "bc_nj2nq081";
 export const DATA_SUFFIX =
-  "0x626173655f7369676e616c5f626f617264" as Hex;
+  "0x62635f6e6a326e713038310b0080218021802180218021802180218021" as Hex;
 export const DEFAULT_CONTRACT_ADDRESS =
   "0x73Df21154445278aac819e8F98FCd0Ed27662c58" as Address;
 
