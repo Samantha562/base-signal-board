@@ -131,3 +131,15 @@ npm run lint
 Create a production build:
 
 ```bash
+npm run build
+```
+
+Use these commands before opening a pull request or deploying the app.
+
+## Smart Contract
+
+The contract source is located at:
+
+```bash
+contracts/BaseSignalBoard.sol
+```
