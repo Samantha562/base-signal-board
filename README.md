@@ -143,3 +143,14 @@ The contract source is located at:
 ```bash
 contracts/BaseSignalBoard.sol
 ```
+
+Deploy this contract to Base before using the app in production.
+
+After deployment, copy the contract address into:
+
+- `.env.local` for local development
+- your hosting environment for production
+
+## Production Deployment Notes
+
+Before deploying to production, verify the Mini App metadata in:
