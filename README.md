@@ -22,3 +22,15 @@ Users only pay the normal Base network gas required for contract writes.
 BaseSignalBoard provides a lightweight interface for sending a signal to a Base smart contract.
 
 The frontend is built with Next.js and uses Wagmi and Viem for wallet connection and contract interaction.
+
+The visual style is designed around a retro pixel arcade feel.
+
+The project is suitable for a small, public Mini App where the primary action is selecting and submitting one of the supported signals.
+
+## Features
+
+- Retro pixel arcade UI
+- Four supported signals: Build, Ship, Chill, and Bullish
+- Wallet connection support
+- Onchain `sendSignal(uint8)` writes
+- Base network support
