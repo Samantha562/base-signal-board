@@ -71,3 +71,15 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/Samantha562/base-signal-board.git
+cd base-signal-board
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a local environment file:
+
+```bash
