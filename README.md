@@ -34,3 +34,15 @@ The project is suitable for a small, public Mini App where the primary action is
 - Wallet connection support
 - Onchain `sendSignal(uint8)` writes
 - Base network support
+- Minimal app flow
+- No leaderboard
+- No referral system
+- No paid feature system
+- No task system
+
+## Tech Stack
+
+- Next.js App Router
+- TypeScript
+- Wagmi
+- Viem
