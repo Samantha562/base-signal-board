@@ -58,3 +58,16 @@ Configured connectors:
 - `injected`
 
 The project does not use RainbowKit or WalletConnect Project ID.
+
+## Repository
+
+Repository URL:
+
+https://github.com/Samantha562/base-signal-board.git
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Samantha562/base-signal-board.git
