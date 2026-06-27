@@ -204,3 +204,14 @@ For the Mini App to load publicly, disable Vercel Deployment Protection.
 3. Choose one of the four signals.
 4. Submit the transaction.
 5. Wait for the write to confirm on Base.
+
+The supported signal choices are:
+
+- Build
+- Ship
+- Chill
+- Bullish
+
+Users may submit signals more than once.
+
+## Project Structure Notes
