@@ -107,3 +107,15 @@ For production deployments, also set the same value in your hosting environment.
 ## Development
 
 Start the local development server:
+
+```bash
+npm run dev
+```
+
+Then open the local app in your browser.
+
+By default, Next.js commonly serves the app at:
+
+```bash
+http://localhost:3000
+```
