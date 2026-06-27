@@ -192,3 +192,15 @@ If deploying with Vercel, set the deployed contract address in the project envir
 Required value:
 
 ```bash
+NEXT_PUBLIC_BASE_SIGNAL_BOARD_ADDRESS
+```
+
+For the Mini App to load publicly, disable Vercel Deployment Protection.
+
+## Usage
+
+1. Open the app.
+2. Connect a supported wallet.
+3. Choose one of the four signals.
+4. Submit the transaction.
+5. Wait for the write to confirm on Base.
