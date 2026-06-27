@@ -46,3 +46,15 @@ The project is suitable for a small, public Mini App where the primary action is
 - TypeScript
 - Wagmi
 - Viem
+- Tailwind CSS
+
+## Wallet Connectors
+
+The app is configured with Wagmi native connectors only.
+
+Configured connectors:
+
+- `coinbaseWallet`
+- `injected`
+
+The project does not use RainbowKit or WalletConnect Project ID.
