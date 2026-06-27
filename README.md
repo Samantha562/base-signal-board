@@ -95,3 +95,15 @@ NEXT_PUBLIC_BASE_SIGNAL_BOARD_ADDRESS=your_deployed_contract_address
 ## Environment Variables
 
 The main required public environment variable is:
+
+```bash
+NEXT_PUBLIC_BASE_SIGNAL_BOARD_ADDRESS
+```
+
+This value must point to the deployed `BaseSignalBoard` contract on Base.
+
+For production deployments, also set the same value in your hosting environment.
+
+## Development
+
+Start the local development server:
