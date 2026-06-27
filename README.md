@@ -180,3 +180,15 @@ The Wagmi configuration is located in:
 ```bash
 lib/wagmi.ts
 ```
+
+This file sets the global suffix configuration.
+
+Each `writeContract` call also explicitly passes the configured suffix.
+
+## Vercel Notes
+
+If deploying with Vercel, set the deployed contract address in the project environment variables.
+
+Required value:
+
+```bash
