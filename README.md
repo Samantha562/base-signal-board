@@ -119,3 +119,15 @@ By default, Next.js commonly serves the app at:
 ```bash
 http://localhost:3000
 ```
+
+## Checks
+
+Run linting:
+
+```bash
+npm run lint
+```
+
+Create a production build:
+
+```bash
