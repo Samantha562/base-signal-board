@@ -209,3 +209,15 @@ Required value:
 ```bash
 NEXT_PUBLIC_BASE_SIGNAL_BOARD_ADDRESS
 ```
+
+For the Mini App to load publicly, disable Vercel Deployment Protection.
+
+## Project Structure Notes
+
+Important project files and directories include:
+
+```bash
+app/
+contracts/
+lib/
+```
