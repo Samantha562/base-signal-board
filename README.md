@@ -109,3 +109,16 @@ Start the local development server:
 ```bash
 npm run dev
 ```
+
+Then open the local app in a browser.
+
+By default, Next.js commonly serves the app at:
+
+```bash
+http://localhost:3000
+```
+
+## Usage
+
+1. Open the app.
+2. Connect a supported wallet.
