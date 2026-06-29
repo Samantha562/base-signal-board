@@ -22,3 +22,16 @@ BaseSignalBoard provides a lightweight interface for sending a signal to a Base 
 The frontend is built with Next.js and uses Wagmi and Viem for wallet connection and contract interaction.
 
 The visual design follows a retro pixel arcade style.
+
+The project is intended for a small, public Mini App where the main action is selecting and submitting one of the supported signals.
+
+## Features
+
+- Retro pixel arcade interface
+- Four supported signals: Build, Ship, Chill, and Bullish
+- Wallet connection support
+- Onchain `sendSignal(uint8)` contract writes
+- Base network support
+- Minimal interaction flow
+- No leaderboard
+- No referral system
