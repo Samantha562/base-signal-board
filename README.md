@@ -35,3 +35,15 @@ The project is intended for a small, public Mini App where the main action is se
 - Minimal interaction flow
 - No leaderboard
 - No referral system
+- No paid feature system
+- No task system
+
+## Tech Stack
+
+- Next.js App Router
+- TypeScript
+- Wagmi
+- Viem
+- Tailwind CSS
+
+## Wallet Connectors
