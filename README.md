@@ -122,3 +122,15 @@ http://localhost:3000
 
 1. Open the app.
 2. Connect a supported wallet.
+3. Choose one of the four available signals.
+4. Submit the transaction.
+5. Wait for the write to confirm on Base.
+
+The supported signal choices are:
+
+- Build
+- Ship
+- Chill
+- Bullish
+
+Signals may be submitted more than once.
