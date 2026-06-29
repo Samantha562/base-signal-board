@@ -97,3 +97,15 @@ The main required public environment variable is:
 ```bash
 NEXT_PUBLIC_BASE_SIGNAL_BOARD_ADDRESS
 ```
+
+This value must point to the deployed `BaseSignalBoard` contract on Base.
+
+For production deployments, set the same value in the hosting environment.
+
+## Development
+
+Start the local development server:
+
+```bash
+npm run dev
+```
