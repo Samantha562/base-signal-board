@@ -71,3 +71,17 @@ Clone the repository:
 git clone https://github.com/Samantha562/base-signal-board.git
 cd base-signal-board
 ```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a local environment file:
+
+```bash
+cp .env.example .env.local
+```
+
+Set the deployed Base contract address:
