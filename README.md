@@ -234,3 +234,15 @@ lib/wagmi.ts
 Use `app/layout.tsx` to review Mini App metadata.
 
 Use `contracts/BaseSignalBoard.sol` for the contract source.
+
+Use `lib/constants.ts` for build code and suffix-related constants.
+
+Use `lib/wagmi.ts` for wallet and chain configuration.
+
+## Notes
+
+BaseSignalBoard is designed to stay focused on one primary action: sending a simple signal on Base.
+
+Keep new changes aligned with the minimal app flow unless the project scope changes.
+
+Before production use, confirm that the contract address, metadata, and deployment settings are correct.
