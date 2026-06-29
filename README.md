@@ -134,3 +134,16 @@ The supported signal choices are:
 - Bullish
 
 Signals may be submitted more than once.
+
+## Checks
+
+Run linting:
+
+```bash
+npm run lint
+```
+
+Create a production build:
+
+```bash
+npm run build
