@@ -172,3 +172,15 @@ Before deploying to production, verify the Mini App metadata in:
 
 ```bash
 app/layout.tsx
+```
+
+Review these values:
+
+- `base:app_id`
+- `talentapp:project_verification`
+
+Also verify the Base build code and data suffix settings in:
+
+```bash
+lib/constants.ts
+```
