@@ -221,3 +221,16 @@ app/
 contracts/
 lib/
 ```
+
+Key files referenced during setup and deployment:
+
+```bash
+app/layout.tsx
+contracts/BaseSignalBoard.sol
+lib/constants.ts
+lib/wagmi.ts
+```
+
+Use `app/layout.tsx` to review Mini App metadata.
+
+Use `contracts/BaseSignalBoard.sol` for the contract source.
