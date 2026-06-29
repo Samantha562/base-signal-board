@@ -184,3 +184,14 @@ Also verify the Base build code and data suffix settings in:
 ```bash
 lib/constants.ts
 ```
+
+Review these values:
+
+- `BASE_BUILD_CODE`
+- `DATA_SUFFIX`
+
+The Wagmi configuration is located in:
+
+```bash
+lib/wagmi.ts
+```
