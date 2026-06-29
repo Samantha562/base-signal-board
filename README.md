@@ -47,3 +47,16 @@ The project is intended for a small, public Mini App where the main action is se
 - Tailwind CSS
 
 ## Wallet Connectors
+
+The app is configured with Wagmi native connectors only.
+
+Configured connectors:
+
+- `coinbaseWallet`
+- `injected`
+
+The project does not use RainbowKit or a WalletConnect Project ID.
+
+## Repository
+
+Repository URL:
